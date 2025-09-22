@@ -32,7 +32,7 @@
             <version>3.11.0</version>
         </dependency>
 
-        <!-- AWS SDK for S3, SQS, and DynamoDB -->
+        <!-- AWS SDK for S3, SQS, DynamoDB, and SNS -->
         <dependency>
             <groupId>software.amazon.awssdk</groupId>
             <artifactId>s3</artifactId>
@@ -44,6 +44,11 @@
         <dependency>
             <groupId>software.amazon.awssdk</groupId>
             <artifactId>dynamodb</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>software.amazon.awssdk</groupId>
+            <artifactId>sns</artifactId>
+            <version>2.17.184</version> <!-- Or the latest version you prefer -->
         </dependency>
 
         <!-- JSON Processing with Jackson -->
@@ -72,12 +77,12 @@
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
-            <version>1.7.30</version> <!-- Check for the latest version -->
+            <version>1.7.30</version>
         </dependency>
         <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-classic</artifactId>
-            <version>1.2.3</version> <!-- Check for the latest version -->
+            <version>1.2.3</version>
         </dependency>
         <dependency>
             <groupId>ch.qos.logback</groupId>
